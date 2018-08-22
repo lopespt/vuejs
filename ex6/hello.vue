@@ -2,10 +2,12 @@
 <template>
     <div>
         <input type="text" v-model="texto"/><button v-on:click="adicionaTarefa">{{txtBotao}}</button>
-        <TodoItem v-on:deletar="() => deleta(idx)" v-for="(item, idx) in lista" v-bind:key="idx" v-bind:texto="item.texto" v-bind:num="idx+1"></TodoItem>
 
+          
+            <TodoItem v-on:deletar="() => deleta(idx)" v-for="(item, idx) in lista" v-bind:key="idx" v-bind:texto="item.texto" v-bind:num="idx+1"></TodoItem>
         
     </div>
+
 </template>
 
 <script>
