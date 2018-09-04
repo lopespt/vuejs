@@ -1,0 +1,17 @@
+{
+  "libs": [
+    "jquery",
+    "ecmascript",
+    "browser"
+  ],
+  "dontLoad": [
+    "./bower_components/"
+  ],
+  "plugins": {
+    "node": {},
+    "modules": {},
+    "es_modules":{},
+    "webpack":{},
+    "requirejs": {}
+  }
+}

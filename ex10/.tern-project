@@ -1,0 +1,16 @@
+{
+  "libs": [
+    "jquery",
+    "ecma6",
+    "browser"
+  ],
+  "dontLoad": [
+    "./bower_components/"
+  ],
+  "plugins": {
+    "node": {},
+    "modules": {},
+    "es_modules":{},
+    "requirejs": {}
+  }
+}

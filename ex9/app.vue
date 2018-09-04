@@ -8,7 +8,7 @@ import Tabela from "./tabela.vue"
 
 export default {
     components:{
-      Tabela  
+        Tabela  
     },
     data(){
         return {
